@@ -1,11 +1,11 @@
-import { injectGlobal } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-    outline: 0;
+    outline:0;
   }
 
   body{
@@ -14,3 +14,5 @@ injectGlobal`
     -webkit-font-smoothing: antialiased !important;
   }
 `;
+
+export default GlobalStyle;
