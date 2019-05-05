@@ -57,4 +57,43 @@ export const Repository = styled.div`
       }
     }
   }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .update {
+    height: 25px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #007bff;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background: #007bcf;
+    }
+  }
+
+  .delete {
+    height: 25px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #f00d;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+      background: #f00;
+    }
+  }
 `;
