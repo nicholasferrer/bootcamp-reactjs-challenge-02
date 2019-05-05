@@ -8,4 +8,4 @@ Nesse desafio você irá melhorar a aplicação que desenvolvemos durante o segu
 
 ## Exemplo desenvolvido
 
-![Feed](/assets/example.png)
+![Feed](src/assets/example.png)
